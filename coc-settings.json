@@ -1,0 +1,13 @@
+{
+  "languageserver": {
+    "lua": {
+      "command": "lua-language-server",
+      "filetypes": ["lua"]
+    },
+    "python": {
+      "command": "pylsp",
+      "filetypes": ["python"]
+    }
+  },
+  "suggest.autoTrigger": "always"
+}
