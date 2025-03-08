@@ -9,5 +9,6 @@
       "filetypes": ["python"]
     }
   },
-  "suggest.autoTrigger": "always"
+  "suggest.autoTrigger": "always",
+  "coc.preferences.formatOnSave": true
 }
