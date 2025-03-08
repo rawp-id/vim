@@ -25,6 +25,19 @@ return {
           let col = col('.') - 1
           return !col || getline('.')[col - 1]  =~# '\s'
         endfunction
+
+        " Format kode dengan Space + c + f seperti LazyVim
+        nnoremap <silent> <leader>cf :call CocActionAsync('format')<CR>
+
+        " Format kode dengan Shift + Alt + F seperti VSCode
+        nnoremap <silent> <S-A-F> :call CocActionAsync('format')<CR>
+
+        inoremap <silent> <S-A-F> <Esc>:call CocActionAsync('format')<CR>
+
+        nnoremap <silent> <C-F> :call CocActionAsync('format')<CR>
+
+        inoremap <silent> <C-F> <Esc>:call CocActionAsync('format')<CR>
+
       ]])
     end,
   },
