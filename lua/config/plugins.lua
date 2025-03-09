@@ -1,3 +1,5 @@
 require("plugins.disable")
 require("plugins.snacks")
 require("plugins.plugins")
+require("plugins.vim-blade")
+require("plugins.copilot")

@@ -20,9 +20,9 @@
 
   // Prettier configuration
   "prettier.enable": true,
-  "prettier.requireConfig": false, // Set true jika ingin pakai .prettierrc
-  "prettier.trailingComma": "es5",
-  "prettier.singleQuote": true,
+  //"prettier.requireConfig": false, // Set true jika ingin pakai .prettierrc
+  //"prettier.trailingComma": "es5",
+  //"prettier.singleQuote": true,
 
   // ESLint configuration
   "eslint.enable": true,
