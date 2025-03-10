@@ -9,8 +9,9 @@
       "filetypes": ["python"]
     }
   },
+
   "suggest.autoTrigger": "always",
-  "coc.preferences.formatOnSave": true,
+  //"coc.preferences.formatOnSave": true,
 
   // Auto install extensions jika belum terpasang
   "coc.extends": ["coc-pairs", "coc-prettier", "coc-eslint"],
