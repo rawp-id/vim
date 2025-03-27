@@ -2,25 +2,32 @@
   "languageserver": {
     "lua": {
       "command": "lua-language-server",
-      "filetypes": ["lua"]
+      "filetypes": [
+        "lua"
+      ]
     },
     "python": {
       "command": "pylsp",
-      "filetypes": ["python"]
+      "filetypes": [
+        "python"
+      ]
     }
   },
-
   "suggest.autoTrigger": "always",
-
-  "coc.extends": ["coc-pairs", "coc-prettier", "coc-eslint"],
-
+  "coc.extends": [
+    "coc-pairs",
+    "coc-prettier",
+    "coc-eslint",
+    "coc-emmet",
+    "coc-json",
+    "@yaegassy/coc-black-formatter"
+  ],
+  "emmet.enable": true,
   "pairs.enabled": true,
-
   "prettier.enable": true,
   "prettier.requireConfig": false,
   "prettier.trailingComma": "es5",
   "prettier.singleQuote": true,
-
   "eslint.enable": true,
   "eslint.validate": [
     "javascript",
