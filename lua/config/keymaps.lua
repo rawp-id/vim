@@ -21,3 +21,8 @@ vim.keymap.set("n", "<C-z>", "u", { noremap = true, silent = true })
 vim.keymap.set("i", "<C-r>", "<C-o><C-r>", { noremap = true, silent = true })
 
 vim.keymap.set("i", "<C-q>", "<Esc>", { noremap = true, silent = true })
+
+-- vim.keymap.set("n", "dd", '"_dd', { noremap = true, silent = true })
+-- vim.keymap.set("n", "d", '"_d', { noremap = true, silent = true })
+-- vim.keymap.set("n", "D", '"_D', { noremap = true, silent = true })
+vim.keymap.set("n", "x", '"_x', { noremap = true, silent = true })
