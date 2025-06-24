@@ -18,6 +18,7 @@ vim.api.nvim_set_keymap("i", "<C-s>", "<Esc>:w<CR>:call CocActionAsync('format')
 vim.keymap.set("i", "<A-u>", "<C-o>u", { noremap = true, silent = true })
 vim.keymap.set("i", "<C-z>", "<C-o>u", { noremap = true, silent = true })
 vim.keymap.set("n", "<C-z>", "u", { noremap = true, silent = true })
+vim.keymap.set("v", "<C-z>", "u", { noremap = true, silent = true })
 vim.keymap.set("i", "<C-r>", "<C-o><C-r>", { noremap = true, silent = true })
 
 vim.keymap.set("i", "<C-q>", "<Esc>", { noremap = true, silent = true })
